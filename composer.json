@@ -1,0 +1,22 @@
+{
+  "name": "ht3aa/only-one-active-toggle",
+  "description": "A Filament plugin that provides a toggle field that ensures only one toggle is active at a time within a repeater",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ht3aa\\OnlyOneActiveToggle\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ht3aa\\OnlyOneActiveToggle\\OnlyOneActiveToggleServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "filament/filament": "^3.0"
+  }
+}
