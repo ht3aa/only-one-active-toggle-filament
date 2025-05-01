@@ -1,5 +1,7 @@
 # OnlyOneActiveToggle for Filament
 
+![OnlyOneActiveToggle](content/plugins/images/toggle.png)
+
 A Filament plugin that provides a toggle field that ensures only one toggle is active at a time within a repeater.
 
 ## Installation
