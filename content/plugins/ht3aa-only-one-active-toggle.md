@@ -8,5 +8,5 @@ github_repository: ht3aa/only-one-active-toggle-filament
 has_dark_theme: true
 has_translations: false
 versions: [3]
-publish_date: 2024-05-01
+publish_date: 2025-05-01
 ---
