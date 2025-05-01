@@ -51,8 +51,7 @@ public static function form(Form $form): Form
                     Forms\Components\TextInput::make('name')
                         ->required(),
                     OnlyOneActiveToggle::make('is_active')
-                        ->label('Set as Active')
-                        ->helperText('Only one item can be active at a time'),
+                        ->label('Set as Active'),
                 ])
                 ->columns(2),
         ]);
