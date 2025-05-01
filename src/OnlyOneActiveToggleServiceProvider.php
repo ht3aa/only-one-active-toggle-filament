@@ -11,6 +11,6 @@ class OnlyOneActiveToggleServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('only-one-active-toggle')
-            ->hasViews('only-one-active-toggle');
+            ->hasViews();
     }
 }
